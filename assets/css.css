@@ -3,6 +3,7 @@ html {
 }
 
 .wrapper {
+    font-family: Arial;
     max-width: 1200px;
     height: 53px;
     margin: 30px 120px
@@ -34,6 +35,7 @@ body{
     left: 0;
     width: 100%;
 }
+
 .header_list{
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +44,21 @@ body{
 .header_item{
     margin-right: 100px;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.login_container{
+    position: relative;
+
+}
+.header_login-icon{
+    position: absolute;
+top: 38%;
+    right: 50%;
+    transform: translate(-50%,-30%);
 }
 
 nav ul li a {
@@ -50,88 +67,105 @@ nav ul li a {
 }
 
 .login-button{
-    width: 120px;
-    height: 40px;
-    font-weight: bold;
+    width: 100px;
+    height: 35px;
     background-color: mediumseagreen;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding-right: 17px;
+    padding-left: 41px;
     border-radius: 5px;
     cursor: pointer;
+    left: 1100px;
 }
 
-
-
-
-.main{
-    border: 1px solid lightgrey
+.highlight{
+    color: mediumseagreen;
 }
-
 
 .intro{
     padding-top: 186px;
     display: flex;
-    background-color: lightgrey;
 }
 
-.pre_title{
 
-    font-size: 14px;
+.pre_title{
+    font-family: Arial;
+    font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.1em;
     text-align: left;
+    margin-bottom: 7px;
 
 }
 
 .intro_title{
-    font-family: Cera Pro;
+    font-family: Arial;
     font-size: 50px;
     font-weight: 900;
     line-height: 70px;
     text-align: left;
 max-width: 530px;
     height: 140px;
-    margin-top: 7px;
+    margin-bottom: 5px;
 }
 
 .intro_subtitle{
     max-width: 557px;
-    margin-top: 5px;
     margin-bottom: 44px;
     width: 557px;
     height: 45px;
-    top: 236px;
-    left: 43px;
 }
 
-.image{
-    display: flex;
-    align-items: center;
+.large-image{
+    position: relative;
+    width: 507px;
+    height:450px;
+
 }
 
+
+.small-image{
+    position: absolute;
+    top:78%;
+    right: 55%;
+    transform: translate(-40%,-50%);
+    width: 170px;
+    height: auto;
+}
+
+/*
+.main_image_1{
+    width: 507px;
+    height: 450px;
+    margin-top: 95px;
+    margin-bottom: 52px;
+}
+
+.main_image_2{
+    width: 135px;
+    height: 135px;
+    margin-top: 393px;
+    margin-bottom: 69px;
+    margin-left:100px;
+}
+*/
 
 .shop-now-button{
     max-width:140px;
     height: 40px;
-    font-weight: bold;
+    text-align: center;
     background-color: mediumseagreen;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 137px;
 }
 
-.main_image_1{
-    width: 507px;
-    height: 450px;
-
-}
-
-.main_image_2{
-    width: 135px;
-    height: 135px;
+.main_intro{
+    background-color: rgba(192, 192, 192, 0.1);
 
 }
