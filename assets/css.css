@@ -6,7 +6,7 @@ html {
     font-family: Arial;
     max-width: 1200px;
     height: 53px;
-    margin: 30px 120px
+    margin: 30px 120px;
 }
 
 body{
@@ -15,6 +15,13 @@ body{
     font-weight: normal;
 }
 
+
+.container{
+    font-family: Arial;
+    max-width: 1200px;
+    height: 53px;
+    margin: 30px 120px;
+}
 
 *,* ::before, *::after{
     box-sizing: inherit;
@@ -47,16 +54,15 @@ body{
     font-size: 16px;
     font-weight: 500;
     text-align: left;
-
 }
 
 .login_container{
     position: relative;
-
 }
+
 .header_login-icon{
     position: absolute;
-top: 38%;
+    top: 38%;
     right: 50%;
     transform: translate(-50%,-30%);
 }
@@ -97,7 +103,6 @@ nav ul li a {
     letter-spacing: 0.1em;
     text-align: left;
     margin-bottom: 7px;
-
 }
 
 .intro_title{
@@ -122,7 +127,6 @@ max-width: 530px;
     position: relative;
     width: 507px;
     height:450px;
-
 }
 
 
@@ -135,22 +139,6 @@ max-width: 530px;
     height: auto;
 }
 
-/*
-.main_image_1{
-    width: 507px;
-    height: 450px;
-    margin-top: 95px;
-    margin-bottom: 52px;
-}
-
-.main_image_2{
-    width: 135px;
-    height: 135px;
-    margin-top: 393px;
-    margin-bottom: 69px;
-    margin-left:100px;
-}
-*/
 
 .shop-now-button{
     max-width:140px;
@@ -165,7 +153,3 @@ max-width: 530px;
     margin-bottom: 137px;
 }
 
-.main_intro{
-    background-color: rgba(192, 192, 192, 0.1);
-
-}
