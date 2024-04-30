@@ -3,25 +3,16 @@ html {
 }
 
 .wrapper {
-    font-family: Arial;
     max-width: 1200px;
-    height: 53px;
-    margin: 30px 120px;
 }
 
 body{
+    font-family: Arial, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
 }
 
-
-.container{
-    font-family: Arial;
-    max-width: 1200px;
-    height: 53px;
-    margin: 30px 120px;
-}
 
 *,* ::before, *::after{
     box-sizing: inherit;
@@ -30,17 +21,15 @@ body{
 .header_wrapper{
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
     justify-content: space-between;
-    margin-top: 50px;
-
+    margin: 30px 120px 12px;
 }
 
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 1200px;
+    height: 53px;
+   margin: 30px 120px 12px;
+    gap: 20px;
 }
 
 .header_list{
@@ -53,7 +42,21 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    text-align: left;
+    gap: 20px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.container__content{
+    padding: 91px 630px 219px 40px;
+    max-width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .login_container{
@@ -70,6 +73,11 @@ body{
 nav ul li a {
     text-decoration: none;
     color: black;
+    width: 351px;
+    height: 45px;
+    top: 8px;
+    left: 379px;
+    gap: 20px;
 }
 
 .login-button{
@@ -90,23 +98,21 @@ nav ul li a {
 }
 
 .intro{
-    padding-top: 186px;
     display: flex;
 }
 
 
 .pre_title{
-    font-family: Arial;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.1em;
     text-align: left;
     margin-bottom: 7px;
+
 }
 
 .intro_title{
-    font-family: Arial;
     font-size: 50px;
     font-weight: 900;
     line-height: 70px;
