@@ -76,6 +76,13 @@ body{
     transform: translate(-50%,-30%);
 }
 
+.header_link-1{
+    font-weight: bold;
+    border-bottom: 3px solid mediumseagreen;
+    padding-bottom: 10px;
+}
+
+
 nav ul li a {
     text-decoration: none;
     color: black;
