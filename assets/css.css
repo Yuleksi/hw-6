@@ -63,6 +63,12 @@ body{
     position: relative;
 }
 
+.header_logo,.header-item{
+    max-width: 150px;
+    min-width: 150px;
+}
+
+
 .header_login-icon{
     position: absolute;
     top: 38%;
@@ -133,6 +139,10 @@ max-width: 530px;
     position: relative;
     width: 507px;
     height:450px;
+    margin-left: 100px;
+    margin-right:300px;
+    transform: translateX(-160%) translateY(50px);
+
 }
 
 
